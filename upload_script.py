@@ -9,7 +9,7 @@ debug = False
 ip = "192.168.50.20"
 port = 8080
 base_url = "http://{}:{}/api/v1".format(ip, port)
-file = r"C:\Users\jadle\OneDrive\Desktop\Projects\File Transfer\transfer_test.gcode"
+file = r"path goes here"
 
 def get_token(url):
 	""" requests session token """

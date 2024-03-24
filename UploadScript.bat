@@ -1,0 +1,1 @@
+"C:\Users\jadle\anaconda3\python.exe" "C:\Users\jadle\OneDrive\Desktop\Projects\File Transfer\upload_gui.py" %*
