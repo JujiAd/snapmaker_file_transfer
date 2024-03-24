@@ -3,13 +3,13 @@ import argparse
 import os.path
 import sys
 
-debug = False
+debug = True
 
 # if debug = True, ignore command line arguments and use the following:
 ip = "192.168.50.20"
 port = 8080
 base_url = "http://{}:{}/api/v1".format(ip, port)
-file = r"path goes here"
+file = r"C:\Users\jadle\OneDrive\Desktop\Projects\Litter Bag Holder\Litter Bag Holder v3_0.2mm_PLA_A350_2h39m.gcode"
 
 def get_token(url):
 	""" requests session token """
@@ -47,7 +47,7 @@ if __name__ == "__main__":
 		base_url = "http://{}:{}/api/v1".format(args.address, args.port)
 	try:
 		token = get_token(base_url)
-		assert token
+		# assert token
 	except:
 		print("Couldn't connect to printer")
 		sys.exit()
